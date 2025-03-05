@@ -1,0 +1,10 @@
+{
+  "name": "turbo-caret-bug",
+  "packageManager": "yarn@4.7.0",
+  "dependencies": {
+    "turbo": "^2.4.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

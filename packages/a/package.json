@@ -1,0 +1,6 @@
+{
+  "name": "a",
+  "scripts": {
+    "build:app": "echo \"a#build:app\""
+  }
+}

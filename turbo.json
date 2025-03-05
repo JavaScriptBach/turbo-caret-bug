@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build:app": {
+      "outputs": []
+    },
+    // Not a real task, but defined so other tasks can correctly specify their dependencies.
+    "build:app:recursive": {
+      "dependsOn": ["^build:app", "build:app"]
+    }
+  }
+}

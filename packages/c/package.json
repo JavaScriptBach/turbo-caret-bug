@@ -1,0 +1,9 @@
+{
+  "name": "c",
+  "scripts": {
+    "build:app": "echo \"c#build:app\""
+  },
+  "dependencies": {
+    "b": "workspace:*"
+  }
+}

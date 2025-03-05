@@ -1,0 +1,9 @@
+{
+  "name": "b",
+  "scripts": {
+    "build:app": "echo \"b#build:app\""
+  },
+  "dependencies": {
+    "a": "workspace:*"
+  }
+}
